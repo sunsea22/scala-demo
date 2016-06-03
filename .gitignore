@@ -1,0 +1,8 @@
+.idea
+demo.iml
+logs/*
+*/*.iml
+*/target
+target
+checkpoint
+derby.log
