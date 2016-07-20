@@ -9,9 +9,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
  */
 
 case class TaxCut(reduction: Int) {
-//  println("reducing start now")
-//  Thread.sleep(Random.nextInt(200))
-//  println("reducing stop now")
+  println("reducing start now")
+  Thread.sleep(Random.nextInt(200))
+  println("reducing stop now")
 }
 
 object Government {
